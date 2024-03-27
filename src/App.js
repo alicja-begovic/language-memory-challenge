@@ -111,11 +111,3 @@ function App() {
 
 export default App;
 
-/*
-
-const shuffleCards = [...cardImages, ...cardImages]; - writing two times making two the same arrays (because we need 1 pair of each picture)
-
-const [choiceOne, setChoiceOne] = useState(null);
-const [choiceTwo, setChoiceTwo] = useState(null); - we are choosing 2 cards so needs to be 2 states
-
-*/
