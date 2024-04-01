@@ -15,18 +15,18 @@ import "./App.css";
 import SingleCard from "./components/SingleCard.js";
 
 const cardImages = [
-  { src: antDe, matched: false, id: '001'},
-  { src: antDu, matched: false, id: '001' },
-  { src: beeDe, matched: false, id: '002' },
-  { src: beeDu, matched: false, id: '002' },
-  { src: beetleDe, matched: false, id: '003' },
-  { src: beetleDu, matched: false, id: '003' },
-  { src: butterflyDe, matched: false, id: '004' },
-  { src: butterflyDu, matched: false, id: '004' },
-  { src: fireflyDe, matched: false, id: '005' },
-  { src: fireflyDu, matched: false, id: '005' },
-  { src: ladybugDe, matched: false, id: '006' },
-  { src: ladybugDu, matched: false, id: '006' },
+  { src: antDe, matched: false, id: "001" },
+  { src: antDu, matched: false, id: "001" },
+  { src: beeDe, matched: false, id: "002" },
+  { src: beeDu, matched: false, id: "002" },
+  { src: beetleDe, matched: false, id: "003" },
+  { src: beetleDu, matched: false, id: "003" },
+  { src: butterflyDe, matched: false, id: "004" },
+  { src: butterflyDu, matched: false, id: "004" },
+  { src: fireflyDe, matched: false, id: "005" },
+  { src: fireflyDu, matched: false, id: "005" },
+  { src: ladybugDe, matched: false, id: "006" },
+  { src: ladybugDu, matched: false, id: "006" },
 ];
 
 function App() {
@@ -74,8 +74,6 @@ function App() {
     }
   }, [choiceOne, choiceTwo]);
 
-  // console.log(cards);
-
   //reset choices & increase turn
   const resetTurn = () => {
     setChoiceOne(null);
@@ -110,4 +108,3 @@ function App() {
 }
 
 export default App;
-
